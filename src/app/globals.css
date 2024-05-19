@@ -21,6 +21,9 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #ddd;
   background: #12071f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -37,4 +40,9 @@ h1 {
   background: linear-gradient(30deg, #c850c0, #ffcc70);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.batata {
+  position: absolute;
+  font-size: 100px;
 }
